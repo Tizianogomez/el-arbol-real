@@ -3,34 +3,236 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>el arbol real</title>
-<link rel="stylesheet"
-href="css/style.css">
-
+    <title>Cafeteria</title>
+    <link rel="icon" href="img/logo5.jpg">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <nav>          <!--el nav deve llevar a  pedidos y ddeve tener otras cosas como compras y demas T-->
+    <header class="header">
+        <div class="menu container ">
+            <a href="#" class="logo"></a>
+            <input type="checkbox" id="menu">
+           <label for="menu">
+            <img src="" class="menu-icono" alt="">
+           </label>
+
+         
+   
+               <div>
+                   <ul>
+                       <li class="submenu">
+                          <img src="img/uuuuuuuu.jpg" id="img-carrito" alt="">
+                          <div id="carrito">
+                                <table id="lista-carrito">
+                                     <thead>
+                                        <tr>
+                                            <th>Imagen</th>
+                                            <th>Nombre</th>
+                                            <th>Precio</th>
+                                            <th></th>
+                                        </tr>
+                                     </thead>
+                                     <tbody></tbody>
+                                </table>
+                                <a href="" id="vaciar-carrito " class="btn-2">Vaciar carrito</a>
+                          </div>
+                       </li>
+                   </ul>
+               </div>
+        </div>
+
+        <div class="header-content container">
+
+             <div class="header-txt">
+                <samp><h2></h2></samp>
+                <h1>"Cafeteria El Tito    donde el café es el comienzo de una conversación, y la conversación es el comienzo de una amistad"</h1>
+                <p>
+                   
+                </p>
+                <a href="#" class="btn-1">Informacion</a>
+             </div>
+             <div class="header-img">
+                <img src="img/ww" alt="">
+             </div>
+        </div>
+
+    </header>
+
+    <section class="information container">
+
+        <div class="information-content">
+
+          <div class="information-1">
+              <img src="c:\Users\Win 10\Downloads\clipboard.svg" alt="">
+              <h3>Atencion </h3>
+              <p>
+                <h1>  Atencion 24/7  </h1>
+              </p>
+          </div>
+
+          <div class="information-1">
+            <img src="c:\Users\Win 10\Downloads\credit-card.svg" alt="">
+            <h3>Tarjeta </h3>
+            <p>
+              <h1> Descuento con Tarjeta </h1>
+            </p>
+        </div>
+
+        <div class="information-1">
+            <img src="c:\Users\Win 10\Downloads\truck (1).svg" alt="">
+            <h3>Deliveri </h3>
+            <p>
+             <h1> 10% de descuento  </h1>
+            </p>
+        </div>
+
+        </div>
+
+    </section>
+
+    <section class="oferts container">
+
+      
+        <div class="ofert-1">
+            <img src="img/pq3.jpg" alt="">
+            <h3>Oferta</h3>
+            <p>premium</p>
+        </div>
+
+        <div class="ofert-1">
+            <img src="img/pq1.jpg" alt="">
+            <h3>Oferta</h3>
+            <p>premium</p>
+        </div>
+       
+        <div class="ofert-1">
+            <img src="img/paqute4.jpg" alt="">
+            <h3>Oferta</h3>
+            <p>premium</p>
+        </div>
+        </section>
+       
+        
+
+
+    <main class="products  container" id="lista-1">
+        <h2>Productos destacados </h2>
+
+        <main class="product-content">
+
+            <div class="product">
+                 <img src="img/vaso2.jpg" alt=""> 
+                 <div class="product-txt">
+                     <h3>Cafe chico</h3>
+                     <p class="precio">$150.000</p>
+                     <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar</a>
+                 </div>
+            </div>
+
+            <div class="product">
+                <img src="img/baso1.jpg" alt=""> 
+                <div class="product-txt">
+                    <h3>Cafe mediano</h3>
+                    <p class="precio">$160.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="2">Agregar</a>
+                </div>
+           </div>
+
+           <div class="product">
+            <img src="img/vaso3.jpg" alt=""> 
+            <div class="product-txt">
+                <h3>Cafe Grande</h3>
+                <p class="precio">$170.000</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="3">Agregar</a>
+            </div>
+       </div>
+
+       <div class="product">
+        <img src="img/tz1.jpg" alt=""> 
+        <div class="product-txt">
+            <h3>Cafe en tasa</h3>
+            <p class="precio">$180.000</p>
+            <a href="#" class="agregar-carrito btn-2" data-id="4">Agregar</a>
+        </div>
+   </div>
+
+   <div class="product">
+    <img src="img/cafe3.jpg" alt=""> 
+    <div class="product-txt">
+        <h3>Cafe Con Leche</h3>
+        <p class="precio">$200.000</p>
+        <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar</a>
+    </div>
+</div>
+<div class="product">
+    <img src="img/ppp.jpg" alt=""> 
+    <div class="product-txt">
+        <h3>Cafe con crema</h3>
+        <p class="precio">$250.000</p>
+        <a href="#" class="agregar-carrito btn-2" data-id="6">Agregar</a>
+    </div>
+</div>
+
+<br>
+<br>
+<br>
+
+      
+</div>
+
+    </main>
+
+   
+
+    <section class="contact container">
+
+        <form>
+            <input type="email" placeholder="Correo">
+            <input type="submit" class="btn-3">
+        </form>
+
+    </section>
+
+   
+
+    <footer class="footer">
+
+        <div class="footer-content container">
+
+            <div class="link">
+                <h3>Numero </h3>
+                <ul>
+                    <li><a href="#"></a>3755 389986</li>
                  
-        </nav>
-    </div>   <!--aun nose que poner en el seccion-->
-   <section class="seccion1" >
+                </ul>
+            </div>
 
-   </section> 
+            <div class="link">
+                <h3>tienda </h3>
+                <ul>
+                    <li><a href="#"></a>Jose Injeniero</li>
+                   
+                </ul>
+            </div>
 
+            <div class="link">
+                <h3>Nombre</h3>
+                <ul>
+                    <li><a href="#"></a>Laureano Nauel cabriza</li>
+                    
+                </ul>
+            </div>
 
+           
 
-<footer class="footer">
-<p class="fotP">
-    <br>
-    creado por:<br>
-    laureano nahuel cabriza,<br>
-    tiziano gomez,<br>
-    lucas,<br>
-    ezequiel cabriza
-</p>
-</footer>
-<!--pueden poner lo que quieran en el JS T-->
-    <script src="js/script.js"></script>
+          
+          
+
+        </div>
+
+    </footer>
+
+  <script src="script.js"></script>
+
 </body>
 </html>

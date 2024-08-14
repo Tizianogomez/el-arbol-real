@@ -1,0 +1,413 @@
+.footer{
+    height: 40vh;
+    background-color: black;
+}
+.fotP{
+    text-align: center;
+    color: white;
+}
+.seccion1{
+  height: 100vh;  
+}
+body{
+    background-image:url(imgfondo/el\ arbol.jpg) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+   
+ }
+ 
+ 
+ body{
+    font-family: 'Times New Roman', Times, serif;
+  background-image: url(img/pppp.jpg);
+  
+ }
+ 
+    
+ 
+ 
+ img{
+    max-width: 100%;
+ }
+ 
+ .container{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+ }
+ 
+ .header{
+    background-image: url(img/yyy.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 70vh;
+    padding: 100px 0;
+    color: rgb(255, 255, 255);
+ }
+ 
+ .menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+ }
+ 
+ .logo{
+    color: rgb(255, 0, 0);
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+ }
+ 
+ .menu.navbar a {
+  position: absolute;
+  float: left;  
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ #menu{
+    display: none;
+ }
+ .menu-icono{
+    width: 25px;
+ }
+ .menu label{
+    cursor: pointer;
+    display: none;
+ }
+ 
+ .submenu{
+    position: relative;
+ }
+ .submenu #carrito{
+    display: none;
+ }
+ .submenu:hover #carrito{
+    display: block;
+    position: absolute;
+    right: 0;
+    backdrop-filter: blur(10px);
+    top: 100%;
+    z-index: 1;
+    background-color: #433e4776;
+    padding: 20px;
+    min-width: 400px;
+ }
+ 
+ table{
+    width: 100%;
+ }
+ th, td {
+    color: rgb(255, 0, 0);
+ }
+ 
+ 
+ .borrar{
+    background-color: #8dc84b;
+    border-radius: 50%;
+    padding: 5px 10px;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    cursor: pointer;
+ }
+ 
+ .header-content{
+    display: flex;
+ }
+ .header-txt{
+    flex-basis: 50%;
+ }
+ .header-txt span {
+    font-size: 16px;
+    color: rgb(255, 132, 0);
+    font-weight: 700;
+    margin-bottom: 15px;
+    display: block;
+ }
+ 
+ .header-txt h1 {
+    font-size: 55px;
+    line-height: 1;
+    color: #333128;
+    margin-bottom: 25px;
+ }
+ 
+ p {
+    font-size: 16px;
+    color: #181713;
+    margin-bottom: 45px;
+ }
+ 
+ .btn-1 {
+    display: inline-block;
+    padding: 17px 17px;
+    color: #ffffff;
+    border-radius: 25px;
+    background-color: #ff0000;
+    text-transform: capitalize;
+ }
+ 
+ .header-img{
+    flex-basis: 50%;
+    text-align: center;
+ }
+ 
+ .header-img img{
+    width: 400px;
+ }
+ 
+ .information {
+    width: 70%;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1 );
+    padding: 25px 75px;
+    margin-top: -75px;
+    background-image: url(img/yyy.jpg);
+    background-size: cover;
+ }
+ 
+ .information-content{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+ }
+ 
+ .information-1 imf {
+ width: 35px;
+ }
+ 
+ h3{
+    font-size: 17px;
+    color: #ff0000;
+    text-transform: capitalize;
+ }
+ 
+ .information-1 p {
+ margin-bottom: 0;
+ }
+ .oferts{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+ }
+ 
+ .ofert-1{
+    text-align: center;
+    flex-basis: calc(25% - 20%);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1 );
+    padding: 50px;
+   background-image: url(img/ooo.jpg);
+   background-size: cover;
+   border-radius: 10px;
+ }
+ 
+ .ofert-1 img {
+   width: 50000px;
+   margin-bottom: 10px;
+ }
+ 
+ .ofert-1 p{
+    font-size: 300%;
+    margin: 0;
+    font-weight: 600;
+    color: #ff0000;
+ }
+ 
+ .products {
+    padding: 0 0 100px 0 ;
+    text-align: center;
+ }
+ 
+ .products h2 {
+    font-size: 40px;
+    color: #000000;
+    text-transform: capitalize;
+    margin-bottom: 10%;
+ }
+ 
+ .product-content{
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    gap: 50px;
+ }
+ 
+ .product {
+    text-align: center;
+    box-shadow: 0 0 20px rgb(255, 0, 0);
+    padding: 35px;
+    border-radius: 10px;
+ }
+ .product img {
+    width: 150px;
+    margin-bottom: 30px;   
+ }
+ 
+ .product h3{
+    color: #000000;
+ }
+ 
+ .product p {
+    font-size: 15px;
+    margin: 0;
+    color: #181713;
+    font-weight: 600;
+ }
+ 
+ .btn-2{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 7px 25px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #ff0000;
+ }
+ 
+ 
+ .contact{
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ form{
+    display: flex;
+ 
+ }
+ input{
+    padding: 17px 35px;
+    border-radius: 25px;
+    border: 1px solid #ff0000;
+    outline: none;
+ }
+ 
+ .btn-3{
+    margin-left: 10px;
+    color: #ffffff;
+    background-color: #971d1d;
+ }
+ 
+
+ 
+ .link h3 {
+    color: #000000;
+    font-size: 17px;
+    margin-bottom: 10px;
+ }
+ 
+ .link a {
+    color: #f3f3f3;
+    font-size: 15px;
+    display: block;
+    margin-bottom: 10px;
+ }
+ 
+ .link a:hover{
+    color: #ffffff;
+ }
+ 
+ @media(max-width:991px) {
+    .menu{
+       padding: 30px;
+    }
+ 
+    .menu label {
+       display: initial;
+    }
+ 
+    .menu .navbar {
+       position: absolute;
+       top: 100%;
+       left: 0;
+       right: 0;
+       background-color: #333128;
+       display: none;
+    }
+ 
+    .menu .navbar ul li {
+       width: 100%;
+    }
+    .menu .navbar ul li {
+       color: #ffffff;
+    }
+ 
+    .logo {
+       display: none;
+    }
+    #menu:checked ~ .navbar {
+       display: initial;
+    }
+ 
+    .submenu:hover #carrito {
+       min-width: 340px;
+    }
+ 
+    .header {
+       min-height: 0vh;
+       padding: 100px 30px;
+    }
+ 
+    .header-content{
+       flex-direction: column;
+       text-align: center;
+    }
+ 
+    .header-txt{
+       margin-bottom: 20px;
+    }
+ 
+    .header-img img {
+       width: 300px;
+    }
+ 
+    .information {
+       display: none;
+    }
+ 
+    .oferts {
+       padding: 30px;
+       flex-direction: column;
+    }
+ 
+    .ofert-1 {
+       margin-bottom: 25px;
+    }
+ 
+    .products {
+       padding: 30px;
+    }
+    .product-content {
+       grid-template-columns: repeat(1, 1fr);
+    }
+ 
+    .service {
+       flex-direction: column;
+    }
+ 
+    .footer{
+       padding: 30px;
+    }
+ 
+    .footer-content{
+       flex-direction: column;
+       text-align: center;
+    }
+    
+ }
