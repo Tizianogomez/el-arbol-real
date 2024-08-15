@@ -64,3 +64,7 @@ function eliminarElemento(e) {
 function vaciarCarrito() {
   lista.innerHTML = ""
 }
+
+function alerta(variable){
+  alert(variable.id)
+}
