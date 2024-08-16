@@ -1,9 +1,12 @@
-.footer{
+
+
+  
+.footer{ 
    background-color: black;
     position: absolute;
     width: 100%;
     height: 200px;
-    left: 0;
+    left: 0; 
 }
 .fotP{
     text-align: center;
@@ -559,7 +562,7 @@ body{
  .cart-button .cart-icon {
    width: 1rem;
  }
-<<<<<<< HEAD
+
 
 
 
@@ -643,7 +646,7 @@ body{
  
 
 
- /* From Uiverse.io by JaydipPrajapati1910 */ 
+
 .card {
    width: 200px;
    height: 290px;
@@ -748,7 +751,7 @@ body{
    -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
    box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.3);
  }
-=======
+
  .navbar-nav{
    padding-left:40%;
    display: flex;
@@ -763,5 +766,5 @@ body{
    font-size: 1,5rem;
    padding: 10px;
    padding: 1%;}
->>>>>>> c74f157f20c70d8f666a54163f796145c52c8dca
+
  
