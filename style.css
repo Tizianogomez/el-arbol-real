@@ -559,4 +559,18 @@ body{
  .cart-button .cart-icon {
    width: 1rem;
  }
+ .navbar-nav{
+   padding-left:40%;
+   display: flex;
+   padding-bottom: 2rem;
+}
+.Foto{
+   padding-right: 100px;
+   height: 100px;
+   border-color: #181713;
+}
+.nav-item{
+   font-size: 1,5rem;
+   padding: 10px;
+   padding: 1%;}
  
