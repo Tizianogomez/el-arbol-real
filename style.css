@@ -559,6 +559,7 @@ body{
  .cart-button .cart-icon {
    width: 1rem;
  }
+<<<<<<< HEAD
 
 
 
@@ -747,4 +748,20 @@ body{
    -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
    box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.3);
  }
+=======
+ .navbar-nav{
+   padding-left:40%;
+   display: flex;
+   padding-bottom: 2rem;
+}
+.Foto{
+   padding-right: 100px;
+   height: 100px;
+   border-color: #181713;
+}
+.nav-item{
+   font-size: 1,5rem;
+   padding: 10px;
+   padding: 1%;}
+>>>>>>> c74f157f20c70d8f666a54163f796145c52c8dca
  
