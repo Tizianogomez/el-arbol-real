@@ -825,6 +825,11 @@
 .seccion1{
   height: 100vh;  
 }
+body{
+    background-image:url(imgfondo/el\ arbol.jpg) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
 
 * {
     margin: 0;
@@ -841,8 +846,6 @@
  body{
     font-family: 'Times New Roman', Times, serif;
   background-image: url(img/fonod-de-caf.webp);
-  background-size: cover;
-  background-repeat: no-repeat;
  }
  
     
