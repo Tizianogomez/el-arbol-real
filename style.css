@@ -1,5 +1,8 @@
 
- 
+ .comida{
+   color: red;
+ }
+
 
   
 .footer{ 
@@ -568,7 +571,7 @@ body{
 
 
 
- /* From Uiverse.io by JaydipPrajapati1910 */ 
+ 
 .card-client {
    background: #555;
    width: 13rem;
@@ -768,5 +771,17 @@ body{
    padding: 10px;
    padding: 1%;}
 
+.comida{
+   text-align: center;
+}
 
-   
+.relo{
+   grid-template-columns: repeat(4, 3fr);
+}
+
+
+.compra{
+   display: grid;
+   grid-template-columns: repeat(4, 3fr);
+   gap: 50px;
+}
