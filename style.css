@@ -427,7 +427,7 @@ body{
 /* campras */
 
 .card {
-   --bg-card: #27272a;
+  background-image: url(img/ggg.png);
    --primary: #6d28d9;
    --primary-shadow: #2e1065;
    --light: #d9d9d9;
