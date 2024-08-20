@@ -845,7 +845,7 @@ body{
   por eso esta imagen de fondo aunque simple cumple con la misma funcion*/
  body{
     font-family: 'Times New Roman', Times, serif;
-  background-image: url(img/fonod-de-caf.webp);
+  background-image: url(img/fondo/fonod-de-caf.webp);
  }
  
     
@@ -1235,7 +1235,7 @@ body{
 /* campras */
 
 .card {
-  background-image: url(img/ggg.png);
+  background-image: url(img/otros_objetos/ggg.png);
    --primary: #6d28d9;
    --primary-shadow: #2e1065;
    --light: #d9d9d9;
