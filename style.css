@@ -202,7 +202,7 @@
 .barra:hover{
   width: 70%;
   height: 100%;
- background-image: url(img/otros_objetos/cafe\ expreso.gif);
+ background-image: url(img/fondo/madera.jpg);
  background-size: cover;
 }
 .barra:hover h2{
