@@ -170,7 +170,7 @@
   font-family: Arial, Helvetica, sans-serif;
   width: 10%;
   height: 9%;
-  position: fixed;
+  
   transition: 4s all;
   z-index: 1;
  }
@@ -190,7 +190,7 @@
 }
 .barra h2{
   text-align: center;
-  color: rgb(27, 6, 6);
+  color: rgb(76, 0, 255);
   padding: 7px;
   padding-bottom: 7px;
   font-size: 0px;
@@ -211,7 +211,7 @@
 }
 .barra:hover a{
   font-size: 20px;
-  color: rgb(16, 0, 107);
+  color: rgb(255, 81, 0);
   display: block;
   padding: 20px;
 }
