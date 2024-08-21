@@ -190,7 +190,7 @@
 }
 .barra h2{
   text-align: center;
-  color: white;
+  color: rgb(27, 6, 6);
   padding: 7px;
   padding-bottom: 7px;
   font-size: 0px;
@@ -202,7 +202,8 @@
 .barra:hover{
   width: 70%;
   height: 100%;
-  background-color: rgb(7, 7, 92);
+ background-image: url(img/otros_objetos/cafe\ expreso.gif);
+ background-size: cover;
 }
 .barra:hover h2{
   padding: 15px;
@@ -210,7 +211,7 @@
 }
 .barra:hover a{
   font-size: 20px;
-  color: white;
+  color: rgb(16, 0, 107);
   display: block;
   padding: 20px;
 }
@@ -227,7 +228,8 @@
 .barra:hover a:hover{
   font-size: 25px;
   padding: 30px 0px;
-  background-color: rgba(22,78 ,112 ,0.98 );
+  background-image: url(img/otros_objetos/ggg.png);
+  background-size: cover;
 }
  .scene {
    display: flex;
