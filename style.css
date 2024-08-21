@@ -170,7 +170,7 @@
   font-family: Arial, Helvetica, sans-serif;
   width: 10%;
   height: 9%;
-  
+  position: fixed;
   transition: 4s all;
   z-index: 1;
  }
@@ -1026,7 +1026,7 @@ body{
  .header-txt h1 {
     font-size: 55px;
     line-height: 1;
-    color: #ff0000;
+    color: #ff8800;
     margin-bottom: 25px;
  }
  
