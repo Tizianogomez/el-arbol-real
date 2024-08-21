@@ -166,7 +166,69 @@
      bottom: 5%;
    }
  }
- 
+ .barra{
+  font-family: Arial, Helvetica, sans-serif;
+  width: 10%;
+  height: 9%;
+  position: fixed;
+  transition: 4s all;
+  z-index: 1;
+ }
+ .barra ul{
+  padding: 0px;
+  text-align: center;
+ }
+ .barra li{
+  transition: 3s all;
+ }
+.barra a{
+  text-decoration: none;
+  list-style: none;
+  transition: 3s all;
+  font-size: 0px;
+  padding: 0px;
+}
+.barra h2{
+  text-align: center;
+  color: white;
+  padding: 7px;
+  padding-bottom: 7px;
+  font-size: 0px;
+}
+.barra img{
+  padding-top: 30px;
+  padding-left: 10px;
+}
+.barra:hover{
+  width: 70%;
+  height: 100%;
+  background-color: rgb(7, 7, 92);
+}
+.barra:hover h2{
+  padding: 15px;
+  font-size: 35px;
+}
+.barra:hover a{
+  font-size: 20px;
+  color: white;
+  display: block;
+  padding: 20px;
+}
+.barra:hover img{
+  height: 0px;
+}
+.barra:hover li{
+  border-top: 1px solid black;
+  width: 100%;
+}
+.barra:hover ul:last-of-type{
+  border-bottom: 1px solid black;
+}
+.barra:hover a:hover{
+  font-size: 25px;
+  padding: 30px 0px;
+  background-color: rgba(22,78 ,112 ,0.98 );
+}
  .scene {
    display: flex;
    margin: 0 auto 80px auto;
