@@ -200,8 +200,8 @@
   padding-left: 10px;
 }
 .barra:hover{
-  width: 70%;
-  height: 100%;
+  width: 40%;
+  height: 65%;
  background-image: url(img/fondo/madera.jpg);
  background-size: cover;
 }
