@@ -909,7 +909,8 @@ body{
   por eso esta imagen de fondo aunque simple cumple con la misma funcion*/
  body{
     font-family: 'Times New Roman', Times, serif;
-  background-image: url(img/otros_objetos/fonde\ de\ madera.png);
+  background-image: url(img/font.jpg);
+  background-size: cover;
  }
  
     
@@ -1026,7 +1027,7 @@ body{
  .header-txt h1 {
     font-size: 55px;
     line-height: 1;
-    color: #ff8800;
+    color: #ff0000;
     margin-bottom: 25px;
  }
  
@@ -1656,4 +1657,13 @@ body{
    display: grid;
    grid-template-columns: repeat(4, 3fr);
    gap: 50px;
+}
+
+.divide {
+  background-color: #5e5c5c;
+}
+
+.uu {
+background-image: url(img/rr.jpg);
+background-size: cover;
 }
