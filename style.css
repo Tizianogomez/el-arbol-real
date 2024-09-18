@@ -901,15 +901,15 @@ body{
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-   
- }
+  }
+  
  
  /*el fondo anterior no permite la correcta visualizacion 
  de lo que dicen las frases que tienen fondo difuminado,
   por eso esta imagen de fondo aunque simple cumple con la misma funcion*/
  body{
     font-family: 'Times New Roman', Times, serif;
-  background-image: url(img/font.jpg);
+    background-image: url(img/imagesa.jpg);
   background-size: cover;
  }
  
@@ -1128,33 +1128,32 @@ body{
     display: grid;
     grid-template-columns: repeat(4, 3fr);
     gap: 50px;
+    
  }
  
  .product {
     text-align: center;
-    box-shadow: 0 0 20px rgb(255, 0, 0);
-    padding: 35px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    padding: 30px;
     border-radius: 10px;
+   background-image: url(img/fondo/madera.jpg);
  }
  .product img {
-    width: 150px;
+    width: 100px;
     margin-bottom: 30px;   
  }
  
  .product h3{
-    color: #000000;
+    color: #ff5757;
  }
  
  .product p {
-    font-size: 15px;
-    margin: 0;
-    color: #181713;
-    font-weight: 600;
+  
  }
  
  .btn-2{
     display: inline-block;
-    margin-top: 15px;
+    margin-top: 3px;
     padding: 7px 25px;
     border-radius: 5px;
     color: #ffffff;
@@ -1276,7 +1275,7 @@ body{
        padding: 30px;
     }
     .product-content {
-       grid-template-columns: repeat(1, 1fr);
+       grid-template-columns: repeat(2, 1fr);
     }
  
     .service {
@@ -1667,3 +1666,53 @@ body{
 background-image: url(img/rr.jpg);
 background-size: cover;
 }
+
+
+
+
+.btn-2 {
+
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  position: relative;
+  cursor: pointer;
+  background: -webkit-gradient(linear, left top, right top, color-stop(-12.74%, rgba(110, 239, 255, .5)), color-stop(56.76%, rgba(106, 224, 255, .271)));
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) -12.74%, rgba(255, 0, 0, 0.271) 56.76%);
+  border: 2px solid #acf7ff;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+a:before {
+  content: "";
+  width: 4px;
+  height: 28px;
+  background: #19173b;
+  border: 2px solid #acf7ff;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  position: absolute;
+  border-top: 0;
+  border-left: 0;
+  border-bottom: 0;
+  bottom: -7px;
+  left: 4px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+a:after {
+  content: "";
+  position: absolute;
+  left: -2px;
+  bottom: -2px;
+  border-top: 15px solid transparent;
+  border-left: 15px solid #fffcf7;
+}
+
+
