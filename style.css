@@ -916,9 +916,7 @@ body{
     
  
  
- img{
-    max-width: 100%;
- }
+
  
  .container{
     max-width: 1200px;
@@ -1052,7 +1050,7 @@ body{
  }
  
  .header-img img{
-    width: 400px;
+    
  }
  
  .information {
@@ -1076,7 +1074,7 @@ body{
  
  h3{
     font-size: 17px;
-    color: #ff0000;
+    color: #ffffff;
     text-transform: capitalize;
  }
  
@@ -1119,7 +1117,7 @@ body{
  
  .products h2 {
     font-size: 40px;
-    color: #ff0000;
+    
     text-transform: capitalize;
     margin-bottom: 10%;
  }
@@ -1713,4 +1711,21 @@ a:after {
  
 }
 
+/* seccion de la cafeteria */
+.cafeteria{
+  background-image: url(img/fondo/cafe.avif);
+ 
+}
+/* seccion de postres*/
+.postres{
+background-image: url(img/fondo/Postres.jpg);
+}
+/* seccion de heladeria*/
+.heladeria{
+background-image: url(img/fondo/heladeria.jpg);
+}
+/*seccion de panaderia*/
+.panaderia{
+background-image: url(img/fondo/panderia.jpg);
+}
 
