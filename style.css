@@ -165,31 +165,8 @@
    50% {
      bottom: 5%;
    }
-  }
-  /*hace que la barra se quede quieta*/
-.barra{
-  width: 500%;
-  height: 20;
-  background-image: url(img/fondo/fonod-de-caf.webp);
-  position: fixed;
-}
-/*estilo de la barra*/
-.barra ul li{
-  border-radius: 10px;
-  border-width: 4px;
-  border-color:black;
-  border-style: solid;
-  position: relative;
-  float: left;
-  margin-right: 5rem;
-  background-color: rgb(94, 233, 228);
-  padding: 0.7rem;
-}
-/*palabras de las palabras*/
-.barra ul li a{
-  text-decoration: none;
-  color:black
-}
+ }
+ 
  .scene {
    display: flex;
    margin: 0 auto 80px auto;
@@ -1614,81 +1591,3 @@ body{
    grid-template-columns: repeat(4, 3fr);
    gap: 50px;
 }
-
-.divide {
-  background-color: #5e5c5c;
-}
-
-.uu {
-background-image: url(img/rr.jpg);
-background-size: cover;
-}
-
-
-
-
-.btn-2 {
-
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  cursor: pointer;
-  background: -webkit-gradient(linear, left top, right top, color-stop(-12.74%, rgba(110, 239, 255, .5)), color-stop(56.76%, rgba(106, 224, 255, .271)));
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) -12.74%, rgba(255, 0, 0, 0.271) 56.76%);
-  border: 2px solid #acf7ff;
-  color: #FFFFFF;
-  font-size: 18px;
-  font-weight: 600;
-}
-
-a:before {
-  content: "";
-  width: 4px;
-  height: 28px;
- 
-  -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  position: absolute;
-  border-top: 0;
-  border-left: 0;
-  border-bottom: 0;
-  bottom: -7px;
-  left: 4px;
-  border-bottom-left-radius: 10px;
-  border-top-left-radius: 10px;
-}
-
-a:after {
-  content: "";
-  position: absolute;
-  left: -2px;
-  bottom: -2px;
-  border-top: 15px solid transparent;
- 
-}
-
-/* seccion de la cafeteria */
-.cafeteria{
-  background-image: url(img/fondo/cafe.avif);
- 
-}
-/* seccion de postres*/
-.postres{
-background-image: url(img/fondo/Postres.jpg);
-}
-/* seccion de heladeria*/
-.heladeria{
-background-image: url(img/fondo/heladeria.jpg);
-}
-/*seccion de panaderia*/
-.panaderia{
-background-image: url(img/fondo/panderia.jpg);
-}
-
-
-
-
-
