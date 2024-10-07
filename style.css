@@ -850,7 +850,7 @@
   height: 100vh;  
 }
 body{
-    background-image:url(imgfondo/el\ arbol.jpg) ;
+
     background-repeat: no-repeat;
     background-size:cover;
 }
@@ -869,7 +869,7 @@ body{
   por eso esta imagen de fondo aunque simple cumple con la misma funcion*/
  body{
     font-family: 'Times New Roman', Times, serif;
-    background-image: url(img/imagesa.jpg);
+   background-color: #000000;
   background-size: cover;
  }
  
@@ -1089,13 +1089,13 @@ body{
     
  }
  
- /* .product {
+  .product {
     text-align: center;
     box-shadow: 0 0 20px rgb(0, 0, 0);
     padding: 30px;
     border-radius: 10px;
    background-image: url(img/fondo/madera.jpg);
- }*/
+ }
  .product img {
     width: 100px;
     margin-bottom: 30px;   
