@@ -887,8 +887,9 @@ body{
  }
  
  .header{
-    background-image: url(img/yyy.jpg);
-    background-size: cover;
+    background-image: url(img/fondo/heder.avif);
+   background-size: cover;
+   opacity: calc();
    display: flex;
     align-items: center;
     min-height: 70vh;
