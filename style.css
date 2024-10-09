@@ -1,4 +1,6 @@
-/* From Uiverse.io by Admin12121 */ 
+
+
+
 @keyframes stageBackground {
    0%, 10%, 90%, 100% {
      background-color: #00B6BB;
@@ -63,7 +65,7 @@
    }
  
    50%, 75% {
-     background-color: #ffffff;
+   background-color: #000;
    }
  }
  
@@ -869,7 +871,7 @@ body{
   por eso esta imagen de fondo aunque simple cumple con la misma funcion*/
  body{
     font-family: 'Times New Roman', Times, serif;
-   background-color: #000000;
+  background-image: url(img/fondo/Moonlit\ Asteroid.jpg);
   background-size: cover;
  }
  
@@ -887,7 +889,7 @@ body{
  .header{
     background-image: url(img/yyy.jpg);
     background-size: cover;
-    display: flex;
+   display: flex;
     align-items: center;
     min-height: 70vh;
     padding: 100px 0;
@@ -895,14 +897,14 @@ body{
  }
  
  .menu{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
  }
  
  .logo{
@@ -1009,9 +1011,6 @@ body{
     text-align: center;
  }
  
- .header-img img{
-    
- }
  
  .information {
     width: 70%;
@@ -1071,8 +1070,8 @@ body{
  }
  
  .products {
-    padding: 0 0 100px 0 ;
-    text-align: center;
+  padding: 0 0 100px 0 ;
+  text-align: center;
  }
  
  .products h2 {
@@ -1086,7 +1085,7 @@ body{
     display: grid;
     grid-template-columns: repeat(4, 3fr);
     gap: 50px;
-    
+   width: -10px;
  }
  
   .product {
@@ -1255,14 +1254,8 @@ body{
 
 .product {
   background-image: url(img/fondo/madera.jpg);
-   --primary: #6d28d9;
-   --primary-shadow: #2e1065;
-   --light: #d9d9d9;
-   --zinc-800: #18181b;
-   --bg-linear: linear-gradient(0deg, var(--primary) 50%, var(--light) 125%);
  
-   display: grid;
-   grid-template-columns: repeat(3, 3fr);
+   grid-template-columns: repeat(4, 3fr);
    gap: 50px;
 
    display: flex;
@@ -1283,28 +1276,7 @@ body{
    border-radius: 0.5rem;
  }
  
- .image_container .image {
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
- 
-   width: 3rem;
-   fill: var(--light);
- }
- 
- .title {
-   overflow: clip;
- 
-   width: 100%;
- 
-   font-size: 1rem;
-   font-weight: 600;
-   color: var(--light);
-   text-transform: capitalize;
-   text-wrap: nowrap;
-   text-overflow: ellipsis;
- }
+
  
  .size {
    font-size: 0.75rem;
