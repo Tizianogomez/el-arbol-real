@@ -1642,11 +1642,11 @@ background-image: url(img/fondo/Postres.jpg);
 }
 /* seccion de heladeria*/
 .heladeria{
-background-image: url(img/fondo/heladeria.jpg);
+background-image: url(img/fondo/depositphotos_78604584-stock-illustration-vector-cute-mint-seamless-pattern.jpg);
 }
 /*seccion de panaderia*/
 .panaderia{
-background-image: url(img/fondo/panderia.jpg);
+background-image: url(img/fondo/image.png);
 }
 
 
@@ -1681,6 +1681,3 @@ position: fixed;
 right: 8%;
 top: 0;
 }
-
-
-
