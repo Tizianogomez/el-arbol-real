@@ -1,0 +1,17 @@
+
+body{
+    background-image: url(img2/rr.jpg);
+    background-size: cover;
+    text-align: center;
+    color: rgb(255, 255, 255)
+}
+input{
+    width: 30%;
+    height: 4rem;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 3rem;
+    background-color: rgb(61, 34, 2);
+    color: rgb(255, 255, 255);
+    margin: 1rem;
+}
