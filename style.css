@@ -1653,7 +1653,7 @@ background-image: url(img/fondo/image.png);
 
 
 footer {
- background-color: #ffffff;
+ background-color: #030e52;
   padding: 30px;
   text-align: center;
 }
@@ -1680,4 +1680,8 @@ footer {
 position: fixed;
 right: 8%;
 top: 0;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 73fe89f72c26cba2165a6f2a837ca634fdf706be
